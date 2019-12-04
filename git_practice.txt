@@ -1,0 +1,385 @@
+Git Commands
+$ git config
+$ git clone
+$ git status
+$ git add 
+$ git commit
+$ git checkout
+$ git status
+$ git log
+$ git push
+$ git pull
+
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services
+$ git init
+Initialized empty Git repository in C:/Users/5000838/Desktop/export/Functional services/.git/
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git config --global user.name 'Vinay Vj'
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git config --global user.email 'vinayjoshi567@gmail.com'
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git add index.html
+fatal: pathspec 'index.html' did not match any files
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git add webservices_migrate.xlsx
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   webservices_migrate.xlsx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git rm --cached ^C
+
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git rm --cached webservices_migrate.xlsx
+rm 'webservices_migrate.xlsx'
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+        webservices_migrate.xlsx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+        webservices_migrate.xlsx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git add .
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status'
+> ;
+> git status
+> ^C
+
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$
+git status
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   MascoCabinetryEBIZServices.zip
+        new file:   OracleEBIZServices.zip
+        new file:   SalesforceEBIZWebServicesFunctional.zip
+        new file:   ScheduleJobsGit.zip
+        new file:   UnidataEBIZWebServicesFunctional.zip
+        new file:   webservices_migrate.xlsx
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git rm --cached .
+fatal: not removing '.' recursively without -r
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git rm -r --cached .
+rm 'MascoCabinetryEBIZServices.zip'
+rm 'OracleEBIZServices.zip'
+rm 'SalesforceEBIZWebServicesFunctional.zip'
+rm 'ScheduleJobsGit.zip'
+rm 'UnidataEBIZWebServicesFunctional.zip'
+rm 'webservices_migrate.xlsx'
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+        webservices_migrate.xlsx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+        webservices_migrate.xlsx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git add webservices_migrate.xlsx
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git stauts
+git: 'stauts' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   webservices_migrate.xlsx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   webservices_migrate.xlsx
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   webservices_migrate.xlsx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git add webservices_migrate.xlsx
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   webservices_migrate.xlsx
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git commit
+[master (root-commit) 0594f32] Initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 webservices_migrate.xlsx
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git log
+commit 0594f3268e6bd5be11b046eeadacfec08e8ee988 (HEAD -> master)
+Author: Vinay Vj <vinayjoshi567@gmail.com>
+Date:   Wed Dec 4 16:51:39 2019 +0530
+
+    Initial commit
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git branch test
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
+$ git checkout test
+Switched to branch 'test'
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git remote
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ https://github.com/vinay-vj/test.git
+bash: https://github.com/vinay-vj/test.git: No such file or directory
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git remote https://github.com/vinay-vj/test.git
+error: Unknown subcommand: https://github.com/vinay-vj/test.git
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git remote
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git remote add origin https://github.com/vinay-vj/test.git
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git remote
+origin
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 17.50 KiB | 4.38 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/vinay-vj/test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git status
+On branch test
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git status
+On branch test
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MascoCabinetryEBIZServices.zip
+        OracleEBIZServices.zip
+        SalesforceEBIZWebServicesFunctional.zip
+        ScheduleJobsGit.zip
+        UnidataEBIZWebServicesFunctional.zip
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (test)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+5000838@LDHQGMQ2 MINGW64 /c/Users/5000838/Desktop/export/Functional services (master)
